@@ -2,9 +2,7 @@
 
 a docker image for vite+
 
-## What is Vite+?
-
-[Vite+](https://viteplus.dev) is the unified toolchain for the web, providing a complete development environment with Vite, package management, testing, and more. It unifies tools like Vite, Vitest, Oxlint, Oxfmt, and more into a single `vp` command.
+[vite+](https://viteplus.dev) describes itself as the unified toolchain for the web, providing a complete development environment with Vite, package management, testing, and more, with low-level components built in Rust outperforming pretty much everything else
 
 ## Usage
 
@@ -30,12 +28,12 @@ Run any `vp` command using `docker exec` or within your compose service:
 **Examples:**
 
 ```bash
-docker compose exec viteplus vp install    # Install dependencies
-docker compose exec viteplus vp dev        # Start development server
-docker compose exec viteplus vp build      # Build for production
-docker compose exec viteplus vp test       # Run tests
-docker compose exec viteplus vp lint       # Lint code
-docker compose exec viteplus vp format     # Format code
+docker compose exec viteplus vp install # Install dependencies
+docker compose exec viteplus vp dev     # Start development server
+docker compose exec viteplus vp build   # Build for production
+docker compose exec viteplus vp test    # Run tests
+docker compose exec viteplus vp lint    # Lint code
+docker compose exec viteplus vp format  # Format code
 ```
 
 ### Configuration
