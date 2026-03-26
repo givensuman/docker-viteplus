@@ -1,6 +1,12 @@
+<div align="center">
+  <img src="./assets/logo.png" alt="project logo" width="200" />
+</div>
+
 # givensuman/docker-viteplus
 
 a docker image for vite+
+
+this is a clone of [somehow-digital/docker-viteplus](https://github.com/somehow-digital/docker-viteplus) using an Alpine base with room for tweaking
 
 [vite+](https://viteplus.dev) describes itself as the unified toolchain for the web, providing a complete development environment with Vite, package management, testing, and more, with low-level components built in Rust outperforming pretty much everything else
 
